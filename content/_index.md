@@ -112,54 +112,62 @@ sections:
     content:
       title: '🏫 Leadership'
       text: |
-        <div style="margin-bottom: 25px; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-          <img src="/img/leader.jpg" alt="Leadership Highlights" style="width: 100%; max-height: 350px; object-fit: cover; display: block;">
+        <div style="position: relative; overflow: hidden; border-radius: 12px; padding: 25px; margin-top: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); background: #fff;">
+          
+          <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; pointer-events: none;">
+            <img src="/img/leader.jpg" alt="Leadership Background" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.25; filter: grayscale(80%); display: block; margin: 0;">
+            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.4) 100%);"></div>
+          </div>
+
+          <div style="position: relative; z-index: 1;">
+            <div class="academic-timeline">
+              
+              <div class="timeline-item">
+                <div class="timeline-date">Sep 2025<br>│<br>Present</div>
+                <div class="timeline-content">
+                  <h4 style="margin-top: 0;">The 13th Siyuan Project, Fudan University | Core Member</h4>
+                  <ul>
+                    <li><strong>Custom Cultivation:</strong> Selected into this highly competitive 30-student university-level initiative; participated in tailored training to enhance management and strategic thinking.</li>
+                    <li><strong>Social Horizon:</strong> Engaged in social practices, conducting collaborative field research with Siyuan members from peer universities.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-date">Jun 2025<br>│<br>Present</div>
+                <div class="timeline-content">
+                  <h4>Student Union, School of Mathematical Sciences | Head of Liaison Dept.</h4>
+                  <ul>
+                    <li><strong>External Outreach:</strong> Connected with off-campus enterprises, leading negotiations to secure sponsorships that supported over 10 department-level events.</li>
+                    <li><strong>Cross-Department Collaboration:</strong> Spearheaded inter-departmental collaborations, expanding event reach.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-date">Sep 2024<br>│<br>Present</div>
+                <div class="timeline-content">
+                  <h4>Class Monitor | Class 2, Grade 2024, SMS</h4>
+                  <ul>
+                    <li>Managed academic notices and closely coordinated core administrative processes including merit scholarships.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-date">Sep 2024<br>│<br>Jun 2025</div>
+                <div class="timeline-content">
+                  <h4>Student Union, School of Mathematical Sciences | Art Dept. Member</h4>
+                  <ul>
+                    <li>Co-organized large-scale school cultural events, overseeing early-stage program recruitment and on-site logistics.</li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+          </div>
         </div>
-
-        <div class="academic-timeline">
-          <div class="timeline-item">
-            <div class="timeline-date">Sep 2025<br>│<br>Present</div>
-            <div class="timeline-content">
-              <h4>The 13th Siyuan Project, Fudan University | Core Member</h4>
-              <ul>
-                <li><strong>Custom Cultivation:</strong> Selected into this highly competitive 30-student university-level initiative; participated in tailored training to enhance management and strategic thinking.</li>
-                <li><strong>Social Horizon:</strong> Engaged in social practices, conducting collaborative field research with Siyuan members from peer universities.</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-date">Jun 2025<br>│<br>Present</div>
-            <div class="timeline-content">
-              <h4>Student Union, School of Mathematical Sciences | Head of Liaison Dept.</h4>
-              <ul>
-                <li><strong>External Outreach:</strong> Connected with off-campus enterprises, leading negotiations to secure sponsorships that supported over 10 department-level events.</li>
-                <li><strong>Cross-Department Collaboration:</strong> Spearheaded inter-departmental collaborations, expanding event reach.</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-date">Sep 2024<br>│<br>Present</div>
-            <div class="timeline-content">
-              <h4>Class Monitor | Class 2, Grade 2024, SMS</h4>
-              <ul>
-                <li>Managed academic notices and closely coordinated core administrative processes including merit scholarships.</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-date">Sep 2024<br>│<br>Jun 2025</div>
-            <div class="timeline-content">
-              <h4>Student Union, School of Mathematical Sciences | Art Dept. Member</h4>
-              <ul>
-                <li>Co-organized large-scale school cultural events, overseeing early-stage program recruitment and on-site logistics.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-    design:
+        design:
       columns: '1'
 
   # ==========================================
